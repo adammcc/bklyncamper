@@ -3,57 +3,57 @@ var BodyContent = React.createClass({
     var infoColumn1 = [
       { src: "images/upstate_bug.JPG",
         alt: "bug",
-        note: "Bacon ipsum dolor amet est ullamco bacon, mollit prosciutto swine in strip steak consequat incididunt magna culpa..."
+        note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank."
       },
       { src: "images/gate.JPG",
         alt: "gate",
-        note: "Bacon ipsum dolor amet est ullamco bacon, mollit prosciutto swine in strip steak consequat incididunt magna culpa..."
+        note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank."
       },
       { src: "images/bk_red_door.JPG",
         alt: "bk_red_door",
-        note: "Bacon ipsum dolor amet est ullamco bacon, mollit prosciutto swine in strip steak consequat incididunt magna culpa..."
+        note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank."
       },
       { src: "images/ithaca.JPG",
         alt: "ithaca",
-        note: "Bacon ipsum dolor amet est ullamco bacon, mollit prosciutto swine in strip steak consequat incididunt magna culpa..."
+        note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank."
       }
     ]
 
     var infoColumn2 = [
       { src: "images/upstate_lake.JPG",
         alt: "upstate_lake",
-        note: "Bacon ipsum dolor amet est ullamco bacon, mollit prosciutto swine in strip steak consequat incididunt magna culpa..."
+        note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank."
       },
       { src: "images/upstate_truck.JPG",
         alt: "upstate_truck",
-        note: "Bacon ipsum dolor amet est ullamco bacon, mollit prosciutto swine in strip steak consequat incididunt magna culpa..."
+        note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank."
       },
       { src: "images/old_man_store.JPG",
         alt: "old_man_store",
-        note: "Bacon ipsum dolor amet est ullamco bacon, mollit prosciutto swine in strip steak consequat incididunt magna culpa..."
+        note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank."
       },
       { src: "images/upstate_house.JPG",
         alt: "upstate_house",
-        note: "Bacon ipsum dolor amet est ullamco bacon, mollit prosciutto swine in strip steak consequat incididunt magna culpa..."
+        note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank."
       }
     ]
 
     var infoColumn3 = [
       { src: "images/whiskey.jpg",
         alt: "whiskey",
-        note: "Bacon ipsum dolor amet est ullamco bacon, mollit prosciutto swine in strip steak consequat incididunt magna culpa..."
+        note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank."
       },
       { src: "images/barn.JPG",
         alt: "barn",
-        note: "Bacon ipsum dolor amet est ullamco bacon, mollit prosciutto swine in strip steak consequat incididunt magna culpa..."
+        note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank."
       },
       { src: "images/upstate_scene.JPG",
         alt: "upstate_scene",
-        note: "Bacon ipsum dolor amet est ullamco bacon, mollit prosciutto swine in strip steak consequat incididunt magna culpa..."
+        note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank."
       },
       { src: "images/upstate_tree.JPG",
         alt: "upstate_tree",
-        note: "Bacon ipsum dolor amet est ullamco bacon, mollit prosciutto swine in strip steak consequat incididunt magna culpa..."
+        note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank."
       }
     ]
 

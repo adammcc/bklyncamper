@@ -3,9 +3,8 @@ body {
   color: #55676A;
 }
 
-p {
-  /*font-family: 'Open Sans', sans-serif;*/
-  font-family: 'Roboto', sans-serif;
+.bk-box p {
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   line-height: 22px;
   font-size: 14px;
@@ -31,20 +30,11 @@ p {
   width: 100%;
   height: auto;
 
-  filter: grayscale(100%); /* Current draft standard */
-  -webkit-filter: grayscale(100%); /* New WebKit */
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%); /* Not yet supported in Gecko, Opera or IE */
-  filter: gray; /* IE */
-  -webkit-filter: grayscale(1); /* Old WebKit */
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
-.bk-box:hover {
-  filter: grayscale(0%); /* Current draft standard */
-  -webkit-filter: grayscale(0%); /* New WebKit */
-  -moz-filter: grayscale(0%);
-  -ms-filter: grayscale(0%);
-  -o-filter: grayscale(0%); /* Not yet supported in Gecko, Opera or IE */
-  -webkit-filter: grayscale(0); /* Old WebKit */
+.bk-box:hover, .bk-box.-selected {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
 }
