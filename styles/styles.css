@@ -20,11 +20,8 @@ body {
   text-align: center;
 }
 
-.bk-box img {
-  margin-bottom: 20px;
-}
-
 .bk-box {
+  position: relative;
   margin-bottom: 15px;
   cursor: pointer;
   width: 100%;
@@ -32,6 +29,29 @@ body {
 
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+
+.bk-box img {
+  margin-bottom: 20px;
+}
+
+.bk-box .bk-img-container {
+  position: relative;
+  height: auto;
+}
+
+.bk-box .bk-img-container i {
+  display: none;
+}
+
+.bk-box:hover .bk-img-container i,
+.bk-box.-selected .bk-img-container i {
+  position: absolute;
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  bottom: 32px;
+  right: 14px;
 }
 
 .bk-box:hover, .bk-box.-selected {
