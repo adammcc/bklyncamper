@@ -4,17 +4,17 @@ var BkBox = React.createClass({
       selected: false
     };
   },
-  onClick: function (event) {
+  select: function (event) {
     this.setState({
       selected: !this.state.selected
     });
   },
   render: function () {
     return (
-      <div className={ this.state.selected ? "bk-box -selected" : "bk-box" } onClick={ this.onClick }>
+      <div className={ this.state.selected ? "bk-box -selected" : "bk-box" } onClick={ this.select }>
         <div className="bk-img-container">
           <img src={this.props.src} alt={this.props.alt} height="auto" width="100%" />
-          <i className="fa fa-plus"></i>
+          <i className="fa fa-plus" onClick={this.props.showHideSlider}></i>
         </div>
         { this.state.selected ? (
           <p>

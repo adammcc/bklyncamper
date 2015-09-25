@@ -1,11 +1,14 @@
 body {
-  font-family: 'Leckerli One', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   color: #55676A;
 }
 
+h1  {
+  font-family: 'Leckerli One', cursive;
+}
+
 .bk-box p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
   line-height: 22px;
   font-size: 14px;
   margin-bottom: 20px;
@@ -13,7 +16,7 @@ body {
 
 .bk-header {
   margin: 30px 0px;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid lightgray;
 }
 
 .bk-header__title {
@@ -58,3 +61,15 @@ body {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
 }
+
+.bk-go-home {
+  cursor: pointer;
+  font-size: 26px;
+}
+
+.bk-image-blurb {
+  border-bottom: 1px solid lightgray;
+  padding: 10px 0px;
+  font-weight: 100;
+}
+

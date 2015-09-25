@@ -1,4 +1,12 @@
 var BodyContent = React.createClass({
+  getInitialState: function () {
+    return {
+      showSlider: false
+    };
+  },
+  showHideSlider: function () {
+    this.setState({ showSlider: !this.state.showSlider });
+  },
   render: function () {
     var infoColumn1 = [
       { src: "images/upstate_bug.JPG",
@@ -63,9 +71,14 @@ var BodyContent = React.createClass({
           <h1 className="bk-header__title">Brooklyn Camper</h1>
         </div>
 
-        <BkColumn infos={infoColumn1} />
-        <BkColumn infos={infoColumn2} />
-        <BkColumn infos={infoColumn3} />
+        {( this.state.showSlider ?
+          <BkShow showHideSlider={this.showHideSlider}/>
+        :[
+          <BkColumn infos={infoColumn1} showHideSlider={this.showHideSlider}/>,
+          <BkColumn infos={infoColumn2} showHideSlider={this.showHideSlider}/>,
+          <BkColumn infos={infoColumn3} showHideSlider={this.showHideSlider}/>
+        ])}
+
       </div>
     );
   }
