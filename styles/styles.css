@@ -1,30 +1,42 @@
+/* Tag styles  */
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #55676A;
 }
 
-h1  {
-  font-family: 'Leckerli One', cursive;
+h1, h4 {
+  color: #588C7E;
 }
 
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
+  color: #D96459;
 }
+
+/* bodyContent */
 
 .bk-header {
   margin: 30px 0px;
   border-bottom: 1px solid lightgray;
 }
 
+.bk-header__title {
+  font-family: 'Leckerli One', cursive;
+  text-align: center;
+}
+
+.bk-header__title--link {
+  cursor: pointer;
+}
+
+/* bkBox */
+
 .bk-box p {
   line-height: 22px;
   font-size: 14px;
   margin-bottom: 20px;
-}
-
-.bk-header__title {
-  text-align: center;
 }
 
 .bk-box {
@@ -42,17 +54,17 @@ a:link, a:visited, a:hover, a:active {
   margin-bottom: 20px;
 }
 
-.bk-box .bk-img-container {
+.bk-box .bk-box__img-container {
   position: relative;
   height: auto;
 }
 
-.bk-box .bk-img-container i {
+.bk-box .bk-box__img-container i {
   display: none;
 }
 
-.bk-box:hover .bk-img-container i,
-.bk-box.-selected .bk-img-container i {
+.bk-box:hover .bk-box__img-container i,
+.bk-box.-selected .bk-box__img-container i {
   position: absolute;
   display: inline-block;
   font-size: 18px;
@@ -66,19 +78,25 @@ a:link, a:visited, a:hover, a:active {
   filter: grayscale(0);
 }
 
-.bk-go-home {
+/* bkShow */
+
+.bk-show__go-home {
   cursor: pointer;
-  color: #337ab7;
+  color: #D96459;
 }
 
-.bk-image-blurb {
+.bk-show__main-image {
+  margin-bottom: 10px;
+}
+
+.bk-show__image-blurb {
   border-top: 1px solid lightgray;
   padding: 10px 0px 20px 0px;
   margin-bottom: 10px;
   font-weight: 100;
 }
 
-.bk-small-image {
+.bk-show__small-image {
   display: inline-block;
   cursor: pointer;
   padding: 5px;

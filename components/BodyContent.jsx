@@ -136,7 +136,7 @@ var BodyContent = React.createClass({
     return (
       <div>
         <div className="bk-header row">
-          <h1 className="bk-header__title">Brooklyn Camper</h1>
+          <h1 className={ this.state.pics.length  ? "bk-header__title bk-header__title--link" : "bk-header__title" } onClick={this.showPage.bind(null, [])}>Brooklyn Camper</h1>
         </div>
 
         {( this.state.pics.length ?
