@@ -8,15 +8,19 @@ h1  {
   font-family: 'Leckerli One', cursive;
 }
 
-.bk-box p {
-  line-height: 22px;
-  font-size: 14px;
-  margin-bottom: 20px;
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
 }
 
 .bk-header {
   margin: 30px 0px;
   border-bottom: 1px solid lightgray;
+}
+
+.bk-box p {
+  line-height: 22px;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
 .bk-header__title {
@@ -64,12 +68,19 @@ h1  {
 
 .bk-go-home {
   cursor: pointer;
-  font-size: 26px;
+  color: #337ab7;
 }
 
 .bk-image-blurb {
-  border-bottom: 1px solid lightgray;
-  padding: 10px 0px;
+  border-top: 1px solid lightgray;
+  padding: 10px 0px 20px 0px;
+  margin-bottom: 10px;
   font-weight: 100;
+}
+
+.bk-small-image {
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px;
 }
 
