@@ -25,13 +25,13 @@ var BodyContent = React.createClass({
           ["images/upstate_lake.JPG", "Enough said."]
         ]
       },
-      { src: "images/gate.JPG",
+      { src: "images/scotland/scotch_gate.JPG",
         alt: "gate",
         title: "Nyack, NY",
         note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank.",
         pics: [
           ["images/old_man_store.JPG", "How about this!!!!"],
-          ["images/whiskey.JPG", "This works too!!"],
+          ["images/scotland/scotch_whiskey.JPG", "This works too!!"],
           ["images/boats.JPG", "This works too!!"]
         ]
       },
@@ -56,13 +56,26 @@ var BodyContent = React.createClass({
     ]
 
     var infoColumn2 = [
-      { src: "images/upstate_lake.JPG",
-        alt: "upstate_lake",
-        title: "Nyack, NY",
+      { src: "images/scotland/scotch_old_man_store.JPG",
+        alt: "old_man_store",
+        title: "Scotland!",
         note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank.",
         pics: [
-          ["images/upstate_lake.JPG", "This works!!"],
-          ["images/ithaca.JPG", "This works too!!"]
+          ["images/scotland/scotch_st_andrews.jpg", "T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl."],,
+          ["images/scotland/scotch_whiskey.jpg", "Whiskey!"],
+          ["images/scotland/scotch_old_man_store.JPG", "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami."],
+          ["images/scotland/scotch_gate.JPG", "Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank."],
+          ["images/scotland/schotch_green_hills.jpg", "T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl."],
+          ["images/scotland/schotch_stone_wall.jpg", "T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl."],
+          ["images/scotland/scotch_boats.jpg", "T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl."],
+          ["images/scotland/scotch_island.jpg", "T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl."],
+          ["images/scotland/scotch_loch_lomand_2.jpg", "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami."],
+          ["images/scotland/scotch_loch_lomaon.jpg", "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami."],
+          ["images/scotland/scotch_rainbow.jpg", "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami."],
+          ["images/scotland/scotch_sheep.jpg", "T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl."],
+          ["images/scotland/scotch_stone_street.jpg", "T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl."],
+          ["images/scotland/scotch_whisky_2.jpg", "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami."],
+          ["images/scotland/scotch_lomond_hills.jpg", "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami."]
         ]
       },
       { src: "images/upstate_truck.JPG",
@@ -74,8 +87,8 @@ var BodyContent = React.createClass({
           ["images/ithaca.JPG", "This works too!!"]
         ]
       },
-      { src: "images/old_man_store.JPG",
-        alt: "old_man_store",
+      { src: "images/scotland/scotch_whiskey.jpg",
+        alt: "whiskey2",
         title: "The Finger Lakes, NY",
         note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank.",
         pics: [
@@ -95,7 +108,7 @@ var BodyContent = React.createClass({
     ]
 
     var infoColumn3 = [
-      { src: "images/whiskey.jpg",
+      { src: "images/scotland/scotch_whiskey.jpg",
         alt: "whiskey",
         title: "Hudson, NY",
         note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank.",
