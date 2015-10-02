@@ -21,14 +21,19 @@ var BkShow = React.createClass({
     });
   },
   render: function () {
-    var showPage = this.props.showPage
     var setActivePic = this.setActivePic
     return (
       <div>
+        <a href="#">
+          <BkMainHeader />
+        </a>
+
         <div className="bk-show__main-image col-sm-8"><img src={ this.state.activePic[0] } alt="bug" width="100%" height="90%"/></div>
         <div className="col-sm-4">
           <div className="row">
-            <div className="bk-show__go-home" onClick={showPage.bind(null, [])}><i className="fa fa-angle-left"></i> Main</div>
+            <a href="#">
+              <div className="bk-show__go-home"><i className="fa fa-angle-left"></i> Main</div>
+            </a>
             <div className="bk-show__image-blurb js-show__image-blurb">{  this.state.activePic[1] }</div>
           </div>
 

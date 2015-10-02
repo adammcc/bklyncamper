@@ -12,7 +12,7 @@ var BkBox = React.createClass({
   },
   render: function () {
     return (
-      <div className={ this.state.selected ? "bk-box -selected" : "bk-box" } onClick={ this.props.showPage.bind(null, this.props.pics) } onMouseEnter={ this.select } onMouseLeave={ this.deselect }>
+      <div className={ this.state.selected ? "bk-box -selected" : "bk-box" } onMouseEnter={ this.select } onMouseLeave={ this.deselect }>
         <div className="bk-box__img-container">
           <img src={this.props.src} alt={this.props.alt} height="auto" width="100%" />
           <i className="fa fa-chevron-right"></i>

@@ -28,10 +28,6 @@ a:link, a:visited, a:hover, a:active {
   text-align: center;
 }
 
-.bk-header__title--link {
-  cursor: pointer;
-}
-
 /* bkBox */
 
 .bk-box {
@@ -55,6 +51,7 @@ a:link, a:visited, a:hover, a:active {
   line-height: 22px;
   font-size: 14px;
   margin-bottom: 20px;
+  color: #55676A;
 }
 
 .bk-box img {
@@ -89,7 +86,6 @@ a:link, a:visited, a:hover, a:active {
 /* bkShow */
 
 .bk-show__go-home {
-  cursor: pointer;
   color: #D96459;
 }
 
