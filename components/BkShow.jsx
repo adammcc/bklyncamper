@@ -20,6 +20,21 @@ var BkShow = React.createClass({
       activePic: pic
     });
   },
+  nextPic: function () {
+    var currentPicIndex =  this.props.pics.indexOf(this.state.activePic);
+    var nextPicIndex = currentPicIndex == this.props.pics.length - 1 ? 0 : currentPicIndex + 1;
+    console.log(nextPicIndex)
+    this.setState({
+      activePic: this.props.pics[nextPicIndex]
+    });
+  },
+  prevPic: function () {
+    var currentPicIndex =  this.props.pics.indexOf(this.state.activePic);
+    var prevPicIndex = currentPicIndex == 0 ? this.props.pics.length - 1 : currentPicIndex - 1;
+    this.setState({
+      activePic: this.props.pics[prevPicIndex]
+    });
+  },
   render: function () {
     var setActivePic = this.setActivePic
     return (
@@ -31,9 +46,15 @@ var BkShow = React.createClass({
         <div className="bk-show__main-image col-sm-8"><img src={ this.state.activePic[0] } alt="bug" width="100%" height="90%"/></div>
         <div className="col-sm-4">
           <div className="row">
-            <a href="#articles">
-              <div className="bk-show__go-home"><i className="fa fa-angle-left"></i> Main</div>
-            </a>
+              <div className="bk-show__go-home">
+                <a href="#articles">
+                  <i className="fa fa-angle-left"></i> Main
+                </a>
+                <div className="pull-right">
+                  <span className="bk-show__prev" onClick={ this.prevPic }><i className="fa fa-angle-left"></i> Prev </span>
+                  <span className="bk-show__next" onClick={ this.nextPic }> Next <i className="fa fa-angle-right"></i> </span>
+                </div>
+              </div>
             <div className="bk-show__image-blurb js-show__image-blurb">{  this.state.activePic[1] }</div>
           </div>
 

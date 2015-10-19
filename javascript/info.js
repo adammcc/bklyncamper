@@ -51,7 +51,7 @@ var info = {
     title: "Scotland!",
     note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank.",
     pics: [
-      ["images/scotland/scotch_st_andrews.jpg", "T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl."],,
+      ["images/scotland/scotch_st_andrews.jpg", "T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl."],
       ["images/boats.JPG", "This works too!!"],
       ["images/scotland/scotch_old_man_store.JPG", "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami."],
       ["images/scotland/scotch_gate.JPG", "Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank."],
