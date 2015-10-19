@@ -19,7 +19,9 @@ var BodyContent = React.createClass({
 
     return (
       <div>
-        <BkMainHeader />
+        <a href="#">
+          <BkMainHeader />
+        </a>
 
         { infos.map(function (info) {
           return (

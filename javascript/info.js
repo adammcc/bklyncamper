@@ -1,17 +1,17 @@
 var info = {
   finger_lakes: {
-    src: "images/upstate_bug.JPG",
+    src: "images/finger_lakes/upstate_bug_2.JPG",
     alt: "bug",
     title: "The Finger Lakes, NY",
-    note: "Home of the $5 wine tasting, stunning beauty, and understated locals.",
+    note: "Formed two million years ago by continental glaciers, the finger lakes are now the home of the $5 wine tasting, stunning beauty, and understated locals - they’re the low cost, unpretentious Napa Valley of New York.",
     pics: [
-      ["images/upstate_bug.JPG", "Admire a vintage VW as your sip on vintages at Atwater Vineyards along Seneca Lake. Don’t miss the Rieslings at the nearby <a href='http://rednewt.com/ww4/' target='_blank'>Red Newt</a> or the superb Viennese grub at <a href='http://www.danosonseneca.com/' target='_blank'>Dano’s Heuriger</a> in Lodi."],
-      ["images/skaneateles.JPG", "<a href='https://en.wikipedia.org/wiki/Skaneateles_Lake' target='_blank'>Skaneateles Lake</a> is one of the cleanest in the country. Rent a boat at the <a href='http://www.skanmarina.com/' target='_blank'>Marina</a>."],
-      ["images/ithaca.JPG", "Kids let loose on the big lawn at <a href='http://ithacabeer.com/' target='_blank'>Ithaca Beer</a> Company, home of world-class brews, casual grub, and free brewery tours."],
-      ["images/boat_dock.JPG", "Boats docked at Watkins Glen at the foot of Seneca Lake."],
-      ["images/stone_path.JPG", "Walk through the gorge at the magical <a href='http://nysparks.com/parks/142/details.aspx' target='_blank'>Watkins Glen State Park</a>."],
-      ["images/picnic.JPG", "Take in the view and try to resist concocting plans to quit your job, buy a little house and become a <a href='http://flcc.edu/academics/viticulture/' target='_blank'>vintner</a>. "],
-      ["images/upstate_lake.JPG", "Enough said."]
+      ["images/finger_lakes/upstate_bug_2.JPG", "Admire a vintage VW as your sip on vintages at Atwater Vineyards along Seneca Lake. There’s something for everyone, and a $3 tasting paid with a five will score you a $2 bill in change. Don’t miss the standout Rieslings and simple tasting room at the nearby <a href='http://rednewt.com/ww4/' target='_blank'>Red Newt</a> , and finish your tour with superior Viennese grub at <a href='http://www.danosonseneca.com/' target='_blank'>Dano’s Heuriger</a> in Lodi."],
+      ["images/finger_lakes/skaneateles.JPG", "The town of Skaneateles is as pristine, crisp and teeming with effortless beauty as the lake that shares its name. Admire some of the cleanest water in the country up close at <a href='https://www.google.com/maps/place/Thayer+Park/@42.945447,-76.4260735,3a,75y,181.78h,84.9t/data=!3m6!1e1!3m4!1sXvLT-EcXgTUDxo_-6gEkUg!2e0!7i13312!8i6656!4m2!3m1!1s0x0:0x7d0a6438841a79e6!6m1!1e1' target='_blank'>Thayer Park</a> or rent a boat at the <a href='http://www.skanmarina.com/' target='_blank'>Marina</a>. Continue the pursuit of life’s simple pleasures at  <a href='http://www.dougsfishfry.com/' target='_blank'>Doug’s Fish Fry</a>."],
+      ["images/finger_lakes/ithaca.JPG", "Kids let loose on the big lawn at <a href='http://ithacabeer.com/' target='_blank'>Ithaca Beer Company</a>, home of world-class brews, casual grub, and free brewery tours. IBC is most known for its Flower Power, a full-bodied IPA that clocks in at 7.5% ABV. Seasonal specials and fixtures like the “easy-drinking” Green Trail are less vivid on the tongue but equally impressive."],
+      ["images/finger_lakes/boat_dock.JPG", "Boats docked at Watkins Glen at the foot of Seneca Lake."],
+      ["images/finger_lakes/stone_path.JPG", "Walk through the gorge at the magical <a href='http://nysparks.com/parks/142/details.aspx' target='_blank'>Watkins Glen State Park</a>."],
+      ["images/finger_lakes/picnic.JPG", "Take in the view and try to resist concocting plans to quit your job, buy a little house and become a <a href='http://flcc.edu/academics/viticulture/' target='_blank'>vintner</a>. "],
+      ["images/finger_lakes/upstate_lake.JPG", "Enough said."]
     ]
   },
   butt_0: {
@@ -36,7 +36,7 @@ var info = {
     ]
   },
   butt_2: {
-    src: "images/ithaca.JPG",
+    src: "images/finger_lakes/ithaca.JPG",
     alt: "ithaca",
     title: "The Finger Lakes, NY",
     note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank.",
@@ -98,14 +98,29 @@ var info = {
       ["images/ithaca.JPG", "This works too!!"]
     ]
   },
-  butt_7: {
-    src: "images/scotland/scotch_whiskey.jpg",
+  mohonk: {
+    src: "/images/mohonk/mountain_house_large.JPG",
     alt: "whiskey",
     title: "Hudson, NY",
     note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank.",
     pics: [
-      ["images/upstate_lake.JPG", "This works!!"],
-      ["images/ithaca.JPG", "This works too!!"]
+      ["/images/mohonk/mountain_house_large.JPG", "This works!!"],
+      ["images/mohonk/mohonk_lake.JPG", "This works too!!"],
+      ["images/mohonk/mohonk_fronk.JPG", "This works too!!"],
+      ["images/mohonk/mohonk_path.JPG", "This works too!!"],
+      ["images/mohonk/mohonk_stairs.JPG", "This works too!!"],
+      ["images/mohonk/mohonk_tea.JPG", "This works too!!"],
+      ["images/mohonk/mohonk_window.JPG", "This works too!!"],
+      ["images/mohonk/mohonk_back_view_2.JPG", "This works too!!"],
+      ["images/mohonk/mohonk_back_view.JPG", "This works too!!"],
+      ["images/mohonk/mohonk_fish.JPG", "This works too!!"],
+      ["images/mohonk/mohonk_horses.JPG", "This works too!!"],
+      ["images/mohonk/mohonk_mountian_view.JPG", "This works too!!"],
+      ["images/mohonk/mohonk_night_boats.JPG", "This works too!!"],
+      ["images/mohonk/mohonk_path_2.JPG", "This works too!!"],
+      ["images/mohonk/mohonk_sunset_hut.JPG", "This works too!!"],
+      ["images/mohonk/mohonk_sunset_tower.JPG", "This works too!!"],
+      ["images/mohonk/mohonk_sunset.JPG", "This works too!!"]
     ]
   },
   butt_8: {
@@ -139,3 +154,9 @@ var info = {
     ]
   }
 }
+
+var homeImages = [
+  ['/images/mohonk/mountain_house_large.JPG', 'bottom', 'Mohonk Mountain House', '#article/mohonk'],
+  ['/images/upstate_tree_large_copy.JPG', 'bottom', 'Storm King', '#article/finger_lakes'],
+  ['/images/old_man_store_home.jpg', 'bottom', 'Scotland', '#article/scotland'],
+]

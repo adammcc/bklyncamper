@@ -24,14 +24,14 @@ var BkShow = React.createClass({
     var setActivePic = this.setActivePic
     return (
       <div>
-        <a href="#">
+        <a href="#articles">
           <BkMainHeader />
         </a>
 
         <div className="bk-show__main-image col-sm-8"><img src={ this.state.activePic[0] } alt="bug" width="100%" height="90%"/></div>
         <div className="col-sm-4">
           <div className="row">
-            <a href="#">
+            <a href="#articles">
               <div className="bk-show__go-home"><i className="fa fa-angle-left"></i> Main</div>
             </a>
             <div className="bk-show__image-blurb js-show__image-blurb">{  this.state.activePic[1] }</div>

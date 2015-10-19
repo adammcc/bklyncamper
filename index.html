@@ -17,7 +17,8 @@
   <script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="thirdparty/routie.js"></script>
-  <script src="data/info.js"></script>
+  <script src="javascript/info.js"></script>
+  <script src="components/BkHome.jsx" type="text/jsx"></script>
   <script src="components/BkMainHeader.jsx" type="text/jsx"></script>
   <script src="components/BodyContent.jsx" type="text/jsx"></script>
   <script src="components/BkBox.jsx" type="text/jsx"></script>
@@ -27,6 +28,9 @@
   <script type="text/jsx">
     routie({
       '': function() {
+        React.render(<BkHome/>, document.body);
+      },
+      'articles': function() {
         React.render(<BodyContent/>, document.body);
       },
       'article/:name': function() {

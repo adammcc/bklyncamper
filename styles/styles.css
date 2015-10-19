@@ -1,4 +1,4 @@
-/* Tag styles  */
+html, body { height: 100%; }
 
 body {
   font-family: Inconsolata, 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
@@ -6,15 +6,19 @@ body {
   color: #55676A;
 }
 
-h1, h4 {
-  color: #588C7E;
+h1, h4  {
+  color: #688b8a;
   margin: 0px 0px 5px 0px;
 }
 
+::-webkit-scrollbar { display: none; }
+
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
-  color: #D96459;
+  color: #a0b804;
 }
+
+img { border-radius: 3px; }
 
 /* bodyContent */
 
@@ -54,19 +58,14 @@ a:link, a:visited, a:hover, a:active {
   color: #55676A;
 }
 
-.bk-box img {
-  margin-bottom: 15px;
-}
-
 .bk-box .bk-box__img-container {
   position: relative;
   height: auto;
   margin: 0px;
 }
 
-.bk-box .bk-box__img-container i {
-  display: none;
-}
+.bk-box img { margin-bottom: 15px; }
+.bk-box .bk-box__img-container i { display: none; }
 
 .bk-box:hover .bk-box__img-container i,
 .bk-box.-selected .bk-box__img-container i {
@@ -85,13 +84,8 @@ a:link, a:visited, a:hover, a:active {
 
 /* bkShow */
 
-.bk-show__go-home {
-  color: #D96459;
-}
-
-.bk-show__main-image {
-  margin-bottom: 10px;
-}
+.bk-show__go-home { color: #a0b804; }
+.bk-show__main-image { margin-bottom: 10px; }
 
 .bk-show__image-blurb {
   border-top: 1px solid lightgray;
@@ -103,5 +97,69 @@ a:link, a:visited, a:hover, a:active {
   display: inline-block;
   cursor: pointer;
   padding: 5px;
+}
+
+/* bkShow */
+
+.bk-home-container {
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.bk-home__faded { opacity: 0.8; }
+.bk-home__faded:hover { opacity: 1; }
+.bk-home-container a { color: white; }
+
+.bk-home__center {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 20%;
+}
+
+.bk-home__bottom_left {
+  position: absolute;
+  left: 5%;
+  bottom: 3%;
+}
+
+.bk-home__bottom_right {
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+  bottom: 3%;
+  font-size: 30px;
+}
+
+.bk-home__bottom_right .bk-home-circle {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  border: 2px solid white;
+}
+
+.bk-home__bottom_right i {
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+}
+
+.bk-home__enter {
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+
+.bk-header__title.-home {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 10px;
 }
 
