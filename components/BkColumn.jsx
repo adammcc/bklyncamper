@@ -1,7 +1,7 @@
 var BkColumn = React.createClass({
   render: function () {
     return (
-      <div className="col-sm-4">
+      <div className="bk-column col-sm-4">
         { this.props.infos.map(function (info) {
           var path  = "#article/"
           path = path.concat(info[0])

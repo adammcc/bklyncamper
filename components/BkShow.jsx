@@ -45,7 +45,7 @@ var BkShow = React.createClass({
 
         <div className="bk-show__main-image col-sm-8"><img src={ this.state.activePic[0] } alt="bug" width="100%" height="90%"/></div>
         <div className="col-sm-4">
-          <div className="row">
+          <div className="bk-show__nav row">
               <div className="bk-show__go-home">
                 <a href="#articles">
                   <i className="fa fa-angle-left"></i> Main
@@ -58,7 +58,7 @@ var BkShow = React.createClass({
             <div className="bk-show__image-blurb js-show__image-blurb">{  this.state.activePic[1] }</div>
           </div>
 
-          <div className="row">
+          <div className="bk-show__small-images row">
             { this.props.pics.map(function (data) {
               return (
                 <div className="bk-show__small-image"  onClick={ setActivePic.bind(null, data) }><img src={data[0]} alt={data[1]} height="110px" width="110px" /></div>
