@@ -14,7 +14,7 @@ var info = {
       ["images/finger_lakes/upstate_lake.JPG", "Enough said."]
     ]
   },
-  butt_0: {
+  hoot: {
     src: "images/hoot.JPG",
     alt: "hoot",
     title: "Hoot Festival",
@@ -23,7 +23,7 @@ var info = {
       ["images/hoot.JPG", "How about this!!!!"]
     ]
   },
-  butt_1: {
+  new_haven: {
     src: "images/new_haven_grass.JPG",
     alt: "new haven ct",
     title: "New Haven CT - Day trip!",
@@ -32,7 +32,7 @@ var info = {
       ["images/new_haven_grass.JPG", "This works!!"]
     ]
   },
-  butt_2: {
+  bear_mountain: {
     src: "images/bear_mountain_lake.JPG",
     alt: "bear_mountain_lake",
     title: "Bear Mountain",
@@ -64,7 +64,7 @@ var info = {
       ["images/scotland/scotch_lomond_hills.jpg", "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami."]
     ]
   },
-  butt_4: {
+  hudson_winter_walk: {
     src: "images/hudson_winter_walk.JPG",
     alt: "hudson_winter_walk",
     title: "Hudson, NY - Winter Walk",
@@ -73,7 +73,7 @@ var info = {
       ["images/hudson_winter_walk.JPG", "This works!!"]
     ]
   },
-  butt_5: {
+  saugerties: {
     src: "images/saugerties_light_house.jpg",
     alt: "saugerties_light_house",
     title: "Saugerties, NY",
@@ -82,7 +82,7 @@ var info = {
       ["images/saugerties_light_house.jpg", "This works!!"]
     ]
   },
-  butt_6: {
+  new_port: {
     src: "images/new_port_light_house.JPG",
     alt: "New Port",
     title: "New Port, RI",
@@ -115,7 +115,7 @@ var info = {
       ["images/mohonk/mohonk_sunset.JPG", "This works too!!"]
     ]
   },
-  butt_8: {
+  storm_king: {
     src: "images/upstate_tree_large_copy.JPG",
     alt: "barn",
     title: "Storm King",
@@ -124,7 +124,7 @@ var info = {
       ["images/upstate_tree_large_copy.JPG", "This works!!"]
     ]
   },
-  butt_9: {
+  nyack: {
     src: "images/upstate_tree.JPG",
     alt: "upstate_scene",
     title: "Nyack, NY",
@@ -133,7 +133,7 @@ var info = {
       ["images/upstate_tree.JPG", "This works!!"]
     ]
   },
-  butt_10: {
+  marthas_vineyard: {
     src: "images/marthas_vineyard_creek.JPG",
     alt: "marthas_vineyard_creek",
     title: "Martha's Vineyard, MA",
