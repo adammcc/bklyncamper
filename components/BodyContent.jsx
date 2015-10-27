@@ -16,18 +16,17 @@ var BodyContent = React.createClass({
     var infoArray = []
     for (var key in info) { infoArray.push([key, info[key]]) }
     var infos = this.split(infoArray, 3)
-
     return (
       <div>
         <a href="#">
           <BkMainHeader />
         </a>
 
-        { infos.map(function (info) {
-          return (
-            <BkColumn infos={info} />
-          );
-        })}
+        <BkRowEightFour articles={['finger_lakes', 'mohonk']} />
+        <BkRowFourFourFour articles={['new_haven', 'hoot', 'bear_mountain']} />
+        <BkRowFourEight articles={['hudson_winter_walk', 'nyack']} />
+        <BkRowFourFourFour articles={['storm_king', 'scotland', 'new_port']} />
+        <BkRowFourFourFour articles={['marthas_vineyard', 'saugerties', 'storm_king']} />
 
       </div>
     );
