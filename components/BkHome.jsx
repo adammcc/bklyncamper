@@ -8,7 +8,7 @@ var BkHome = React.createClass({
   },
   nextPic: function () {
     var currentIndex = homeImages.indexOf(this.state.bgItem);
-    var nextIndex = currentIndex < homeImages.length - 1 ? currentIndex + 1 : 0;
+    var nextIndex = currentIndex == homeImages.length - 1 ? 0 : currentIndex + 1;
 
     this.setState({ bgItem: homeImages[nextIndex] });
     this.setState({ bgImage: homeImages[nextIndex][0] });
