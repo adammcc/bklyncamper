@@ -25,7 +25,7 @@ var BodyContent = React.createClass({
         <BkRowEightFour articles={['finger_lakes', 'mohonk']} />
         <BkRowFourFourFour articles={['new_haven', 'hoot', 'bear_mountain']} />
         <BkRowFourEight articles={['hudson_winter_walk', 'nyack']} />
-        <BkRowFourFourFour articles={['storm_king', 'scotland', 'new_port']} />
+        <BkRowFourFourFour articles={['storm_king', 'scotland', 'newport']} />
         <BkRowFourFourFour articles={['marthas_vineyard', 'saugerties', 'storm_king']} />
 
       </div>
