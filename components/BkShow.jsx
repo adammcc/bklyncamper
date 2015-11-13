@@ -21,9 +21,8 @@ var BkShow = React.createClass({
     });
   },
   nextPic: function () {
-    var currentPicIndex =  this.props.pics.indexOf(this.state.activePic);
+    var currentPicIndex = this.props.pics.indexOf(this.state.activePic);
     var nextPicIndex = currentPicIndex == this.props.pics.length - 1 ? 0 : currentPicIndex + 1;
-    console.log(nextPicIndex)
     this.setState({
       activePic: this.props.pics[nextPicIndex]
     });
@@ -55,13 +54,13 @@ var BkShow = React.createClass({
                   <span className="bk-show__next" onClick={ this.nextPic }> Next <i className="fa fa-angle-right"></i> </span>
                 </div>
               </div>
-            <div className="bk-show__image-blurb js-show__image-blurb">{  this.state.activePic[1] }</div>
+            <div className="bk-show__image-blurb js-show__image-blurb">{  this.state.activePic[2] }</div>
           </div>
 
           <div className="bk-show__small-images row">
             { this.props.pics.map(function (data) {
               return (
-                <div className="bk-show__small-image"  onClick={ setActivePic.bind(null, data) }><img src={data[0]} alt={data[1]} height="110px" width="110px" /></div>
+                <div className="bk-show__small-image"  onClick={ setActivePic.bind(null, data) }><img src={data[1]} alt={data[2]} height="110px" width="110px" /></div>
               );
             })}
           </div>
