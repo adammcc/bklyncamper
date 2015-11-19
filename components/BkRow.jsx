@@ -1,4 +1,4 @@
-var BkRowFourFourFour = React.createClass({
+var BkRow = React.createClass({
   render: function () {
     return (
       <div className="bk-article-row row">
