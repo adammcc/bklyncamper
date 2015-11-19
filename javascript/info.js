@@ -38,6 +38,16 @@ var info = {
         "images/finger_lakes/finger_lakes_lake_and_flower.JPG",
         "images/finger_lakes/thumbs/finger_lakes_lake_and_flower__thumb.JPG",
         "Enough said."
+      ],
+      [
+        "images/finger_lakes/finger_lakes_sunrise.JPG",
+        "images/finger_lakes/thumbs/finger_lakes_sunrise__thumb.JPG",
+        "Enough said."
+      ],
+      [
+        "images/finger_lakes/finger_lakes_barn.jpg",
+        "images/finger_lakes/thumbs/finger_lakes_barn__thumb.jpg",
+        "Enough said."
       ]
     ]
   },
@@ -65,26 +75,6 @@ var info = {
       [
         "images/mohonk/mohonk_path.JPG",
         "images/mohonk/thumbs/mohonk_path__thumb.JPG",
-        "This works too!!"
-      ],
-      [
-        "images/mohonk/mohonk_stairs.JPG",
-        "images/mohonk/thumbs/mohonk_stairs__thumb.JPG",
-        "This works too!!"
-      ],
-      [
-        "images/mohonk/mohonk_tea.JPG",
-        "images/mohonk/thumbs/mohonk_tea__thumb.JPG",
-        "This works too!!"
-      ],
-      [
-        "images/mohonk/mohonk_window.JPG",
-        "images/mohonk/thumbs/mohonk_window__thumb.JPG",
-        "This works too!!"
-      ],
-      [
-        "images/mohonk/mohonk_back_view_2.JPG",
-        "images/mohonk/thumbs/mohonk_back_view_2__thumb.JPG",
         "This works too!!"
       ],
       [
@@ -236,7 +226,63 @@ var info = {
       [
         "images/storm_king/storm_king_tree.JPG",
         "images/storm_king/thumbs/storm_king_tree__thumb.JPG",
-        "This works!!"]
+        "This works!!"
+      ],
+      [
+        "images/storm_king/storm_king_rust_box.JPG",
+        "images/storm_king/thumbs/storm_king_rust_box__thumb.JPG",
+        "This works!!"
+      ],
+      [
+        "images/storm_king/storm_king_straw.JPG",
+        "images/storm_king/thumbs/storm_king_straw__thumb.JPG",
+        "This works!!"
+      ],
+      [
+        "images/storm_king/storm_king_triangle.JPG",
+        "images/storm_king/thumbs/storm_king_triangle__thumb.JPG",
+        "This works!!"
+      ],
+      [
+        "images/storm_king/storm_king_red_left.JPG",
+        "images/storm_king/thumbs/storm_king_red_left__thumb.JPG",
+        "This works!!"
+      ],
+      [
+        "images/storm_king/storm_king_red_center.JPG",
+        "images/storm_king/thumbs/storm_king_red_center__thumb.JPG",
+        "This works!!"
+      ],
+      [
+        "images/storm_king/storm_king_view.JPG",
+        "images/storm_king/thumbs/storm_king_view__thumb.JPG",
+        "This works!!"
+      ],
+      [
+        "images/storm_king/storm_king_rust_close.JPG",
+        "images/storm_king/thumbs/storm_king_rust_close__thumb.JPG",
+        "This works!!"
+      ],
+      [
+        "images/storm_king/storm_king_shadows.JPG",
+        "images/storm_king/thumbs/storm_king_shadows__thumb.JPG",
+        "This works!!"
+      ],
+      [
+        "images/storm_king/storm_king_wall.JPG",
+        "images/storm_king/thumbs/storm_king_wall__thumb.JPG",
+        "This works!!"
+      ],
+      [
+        "images/storm_king/storm_king_bright.JPG",
+        "images/storm_king/thumbs/storm_king_bright__thumb.JPG",
+        "This works!!"
+      ],
+      [
+        "images/storm_king/storm_king_curvy.JPG",
+        "images/storm_king/thumbs/storm_king_curvy__thumb.JPG",
+        "This works!!"
+      ]
     ]
   },
   scotland: {
