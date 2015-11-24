@@ -6,18 +6,19 @@ body {
   color: #55676A;
 }
 
-h1, h4  {
-  color: #688b8a;
+h1 {
+  color: #D9853B;
   margin: 0px 0px 5px 0px;
 }
 
+h4 { color: white; }
 p { margin: 0; }
 
 ::-webkit-scrollbar { display: none; }
 
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
-  color: #a0b804;
+  color: #D9853B;
 }
 
 .container { width: 100% }
@@ -54,12 +55,14 @@ a:link, a:visited, a:hover, a:active {
   font-family: 'Dosis', sans-serif;
   font-size: 22px;
   font-weight: 300;
+  margin-top: 30%;
+  text-align: center;
 }
 
 .bk-box p {
   line-height: 22px;
   font-size: 14px;
-  color: #55676A;
+  color: white;
 }
 
 .bk-box .bk-box__img-container {
@@ -75,12 +78,20 @@ a:link, a:visited, a:hover, a:active {
   vertical-align:top
 }
 
-.bk-bk-box__note-container { width: 100% }
+.bk-box .bk-box__note-container {
+  position: absolute;
+  top: 10%;
+  left: 8%;
+  width: 84%;
+  height: 80%;
+  background-color: rgba(217,133,59,0.7);
 
-.bk-bk-box__note-container.-long {
-  width: 30%;
-  display: inline-block;
-  padding-left: 20px;
+  transition: opacity .3s ease-in-out;
+  opacity: 0;
+}
+
+.bk-box:hover .bk-box__note-container {
+  opacity: 1;
 }
 
 .bk-box .bk-box__img-container i { display: none; }
@@ -92,7 +103,8 @@ a:link, a:visited, a:hover, a:active {
   font-size: 18px;
   color: white;
   bottom: 32px;
-  right: 14px;
+  right: 36px;
+  z-index: 100;
 }
 
 .bk-box {
@@ -108,7 +120,7 @@ a:link, a:visited, a:hover, a:active {
 /* bkShow */
 
 .bk-show__nav { margin: 15px 0px 5px 0px }
-.bk-show__go-home { color: #a0b804; }
+.bk-show__go-home { color: #D9853B; }
 .bk-show__main-image { margin: 20px 0px; }
 
 .bk-show__image-blurb {

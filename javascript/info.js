@@ -3,7 +3,6 @@ var info = {
     src: "images/finger_lakes/finger_lakes_upstate_bug.JPG",
     alt: "bug",
     title: "The Finger Lakes, NY",
-    note: "Formed two million years ago by continental glaciers, the finger lakes are now the home of the $5 wine tasting, stunning beauty, and understated locals - they’re the low cost, unpretentious Napa Valley of New York.",
     pics: [
       [
         "images/finger_lakes/finger_lakes_upstate_bug.JPG",
@@ -55,7 +54,6 @@ var info = {
     src: "/images/mohonk/mohonk_hills.JPG",
     alt: "mountain house",
     title: "Mohonk Mountain House - Day trip!",
-    note: "T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball.Turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank.",
     pics: [
       [
         "/images/mohonk/mohonk_hills.JPG",
@@ -122,7 +120,6 @@ var info = {
     src: "images/new_haven/new_haven_grass.JPG",
     alt: "new haven ct",
     title: "New Haven CT - Day trip!",
-    note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank.",
     pics: [
       [
         "images/new_haven/new_haven_grass.JPG",
@@ -170,7 +167,6 @@ var info = {
     src: "images/hoot/hoot.JPG",
     alt: "hoot",
     title: "Hoot Festival",
-    note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank.",
     pics: [
       [
         "images/hoot/hoot.JPG",
@@ -183,7 +179,6 @@ var info = {
     src: "images/bear_mountain/bear_mountain_lake.JPG",
     alt: "bear_mountain_lake",
     title: "Bear Mountain",
-    note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank.",
     pics: [
       [
         "images/bear_mountain/bear_mountain_lake.JPG",
@@ -196,7 +191,6 @@ var info = {
     src: "images/hudson/hudson_winter_walk.JPG",
     alt: "hudson_winter_walk",
     title: "Hudson, NY - Winter Walk",
-    note: "T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef.",
     pics: [
       [
         "images/hudson/hudson_winter_walk.JPG",
@@ -208,7 +202,6 @@ var info = {
     src: "images/nyack/nyack_hook_mt_tree.JPG",
     alt: "upstate_scene",
     title: "Nyack, NY",
-    note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank.",
     pics: [
       [
         "images/nyack/nyack_hook_mt_tree.JPG",
@@ -221,7 +214,6 @@ var info = {
     src: "images/storm_king/storm_king_tree.JPG",
     alt: "barn",
     title: "Storm King",
-    note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank.",
     pics: [
       [
         "images/storm_king/storm_king_tree.JPG",
@@ -289,7 +281,6 @@ var info = {
     src: "images/scotland/scotch_old_man_store.JPG",
     alt: "old_man_store",
     title: "Scotland!",
-    note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank.",
     pics: [
       [
         "images/scotland/scotch_old_man_store.JPG",
@@ -371,7 +362,6 @@ var info = {
     src: "images/newport/newport_light_house.JPG",
     alt: "Newport",
     title: "Newport, RI",
-    note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey pork belly pastrami. Drumstick tail meatloaf turkey pancetta shank.",
     pics: [
       [
         "images/newport/newport_light_house.JPG",
@@ -384,7 +374,6 @@ var info = {
     src: "images/saugerties/saugerties_light_house.jpg",
     alt: "saugerties_light_house",
     title: "Saugerties, NY",
-    note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank.",
     pics: [
       [
         "images/saugerties/saugerties_light_house.jpg",
@@ -396,7 +385,6 @@ var info = {
     src: "images/mv/marthas_vineyard_creek.JPG",
     alt: "marthas_vineyard_creek",
     title: "Martha's Vineyard, MA",
-    note: "Tri-tip pig meatball, alcatra cupim picanha jowl tenderloin tail rump turkey landjaeger pork belly pastrami. T-bone hamburger chuck, salami tongue short loin turkey biltong cow meatball tenderloin ball tip doner alcatra jowl. Leberkas porchetta ball tip, biltong chicken turducken venison corned beef. Drumstick tail meatloaf turkey pancetta shank.",
     pics: [
       [
         "images/mv/marthas_vineyard_creek.JPG",
