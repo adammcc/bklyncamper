@@ -80,11 +80,11 @@ a:link, a:visited, a:hover, a:active {
 
 .bk-box .bk-box__note-container {
   position: absolute;
-  top: 10%;
-  left: 8%;
-  width: 84%;
-  height: 80%;
-  background-color: rgba(217,133,59,0.7);
+  top: 4%;
+  left: 3%;
+  width: 94%;
+  height: 92%;
+  background-color: rgba(0,0,0,0.4);
 
   transition: opacity .3s ease-in-out;
   opacity: 0;
@@ -102,8 +102,8 @@ a:link, a:visited, a:hover, a:active {
   display: inline-block;
   font-size: 18px;
   color: white;
-  bottom: 32px;
-  right: 36px;
+  bottom: 20px;
+  right: 20px;
   z-index: 100;
 }
 
@@ -119,12 +119,13 @@ a:link, a:visited, a:hover, a:active {
 
 /* bkShow */
 
-.bk-show__nav { margin: 15px 0px 5px 0px }
-.bk-show__go-home { color: #D9853B; }
-.bk-show__main-image { margin: 20px 0px; }
+.bk-show__main-image {
+  position: relative;
+  margin: 20px 0px;
+}
 
 .bk-show__image-blurb {
-  padding-top: 10px;
+  padding-top: 15px;
   margin-bottom: 10px;
 }
 
@@ -134,14 +135,66 @@ a:link, a:visited, a:hover, a:active {
   display: inline-block;
   cursor: pointer;
   padding: 5px;
+
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
-.bk-show__prev, .bk-show__next {
-  cursor: pointer;
+.bk-show__hide-til-hover {
+  opacity: 0;
+
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.bk-show__main-image:hover .bk-show__hide-til-hover {
+  opacity: 1;
 }
 
-.bk-show__prev {
-  margin-right: 30px;
+.bk-show__nav-item-container {
+  position: absolute;
+  background-color: rgba(0,0,0,0.4);
+  height: 40px;
+  width: 140px;
+  top: 12px;
+  right: 15px;
+}
+
+.bk-show__nav-item {
+  position: absolute;
+  top: 6px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50px;
+  border: 2px solid white;
+}
+
+.bk-show__nav-item.-home { right: 102px; }
+.bk-show__nav-item.-prev { right: 57px; }
+.bk-show__nav-item.-next { right: 12px; }
+
+.bk-show__nav-item i {
+  position: absolute;
+  color: white;
+  font-size: 26px;
+  text-align: center;
+}
+
+.bk-show__nav-item.-home i {
+  font-size: 14px;
+  right: 6px;
+  top: 4px;
+}
+
+.bk-show__nav-item.-next i {
+  right: 6px;
+  bottom: 0px;
+}
+
+.bk-show__nav-item.-prev i {
+  left: 6px;
+  bottom: 0px;
 }
 
 /* bkhome */
