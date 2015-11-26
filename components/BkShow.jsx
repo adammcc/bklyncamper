@@ -60,7 +60,7 @@ var BkShow = React.createClass({
           <div className="bk-show__small-images row">
             { this.props.pics.map(function (data) {
               return (
-                <div className="bk-show__small-image"  onClick={ setActivePic.bind(null, data) }><img src={data[1]} alt={data[2]} height="110px" width="110px" /></div>
+                <div className="bk-show__small-image"  onClick={ setActivePic.bind(null, data) }><img src={data[1]} alt={data[2]} height="100px" width="100px" /></div>
               );
             })}
           </div>
