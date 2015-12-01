@@ -36,6 +36,7 @@ var BkShow = React.createClass({
   },
   render: function () {
     var setActivePic = this.setActivePic
+    var activePic = this.state.activePic
     return (
       <div>
         <a href="#articles">
@@ -59,16 +60,18 @@ var BkShow = React.createClass({
           <img src={ this.state.activePic[0] } alt="bug" width="100%" height="90%"/>
         </div>
 
-        <div className="col-sm-4">
-          <div className="bk-show__image-blurb js-show__image-blurb">{  this.state.activePic[2] }</div>
-
+        <div className="col-sm-3">
           <div className="bk-show__small-images row">
             { this.props.pics.map(function (data) {
               return (
-                <div className="bk-show__small-image"  onClick={ setActivePic.bind(null, data) }><img src={data[1]} alt={data[2]} height="100px" width="100px" /></div>
+                <div className={ activePic == data ? "bk-show__small-image -selected" : "bk-show__small-image" } onClick={ setActivePic.bind(null, data) }>
+                  <img src={data[1]} alt={data[2]} height="66px" width="66px" />
+                </div>
               );
             })}
           </div>
+          <div className="bk-show__title">{ this.props.title }</div>
+          <div className="bk-show__image-blurb js-show__image-blurb">{  this.state.activePic[2] }</div>
         </div>
       </div>
     );

@@ -35,7 +35,7 @@
       },
       'article/:name': function() {
         var articleName = this.params.name
-        React.render(<BkShow pics={info[articleName]["pics"]} />, document.body);
+        React.render(<BkShow pics={info[articleName]["pics"]} title={info[articleName]["title"]} />, document.body);
       }
     });
   </script>

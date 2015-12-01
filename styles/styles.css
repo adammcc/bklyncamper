@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  color: #D9853B;
+  color: #53bafd;
   margin: 0px 0px 5px 0px;
 }
 
@@ -18,7 +18,7 @@ p { margin: 0; }
 
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
-  color: #D9853B;
+  color: #53bafd;
 }
 
 .container { width: 84% }
@@ -26,7 +26,7 @@ a:link, a:visited, a:hover, a:active {
 /* bodyContent */
 
 .bk-header {
-  margin: 20px 0px 10px 0px;
+  margin: 20px 0px 0px 0px;
 }
 
 .bk-header__title {
@@ -119,25 +119,37 @@ a:link, a:visited, a:hover, a:active {
 
 /* bkShow */
 
+.bk-show__title {
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+  padding-top: 10px;
+
+}
+
 .bk-show__main-image {
   position: relative;
   margin: 20px 0px;
 }
 
 .bk-show__image-blurb {
-  padding-top: 15px;
+  padding-top: 5px;
   margin-bottom: 10px;
 }
 
-.bk-show__small-images { margin-left: -5px; }
+.bk-show__small-images { padding-top: 15px; margin-left: -5px; }
 
 .bk-show__small-image {
   display: inline-block;
   cursor: pointer;
-  padding: 5px;
+  padding: 7px;
 
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+
+.bk-show__small-image.-selected {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
 }
 
 .bk-show__hide-til-hover {
