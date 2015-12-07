@@ -42,6 +42,7 @@ var BkShow = React.createClass({
         <a href="#articles">
           <BkMainHeader />
         </a>
+        <div className="bk-show__title">&#10523; { this.props.title } &#10524;</div>
 
         <div className="bk-show__main-image col-sm-8">
           <div className="bk-show__nav-item-container bk-show__hide-til-hover">
@@ -70,7 +71,6 @@ var BkShow = React.createClass({
               );
             })}
           </div>
-          <div className="bk-show__title">{ this.props.title }</div>
           <div className="bk-show__image-blurb js-show__image-blurb">{  this.state.activePic[2] }</div>
         </div>
       </div>
