@@ -22,6 +22,8 @@ var BodyContent = React.createClass({
           <BkMainHeader />
         </a>
 
+        <BkFilters/>
+
         <BkRow articles={['finger_lakes', 'mohonk', 'hudson_winter_walk']} />
         <BkRow articles={['new_haven', 'hoot', 'bear_mountain']} />
         <BkRow articles={['hudson_winter_walk', 'nyack', 'newport']} />
