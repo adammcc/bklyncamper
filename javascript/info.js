@@ -3,6 +3,7 @@ var info = {
     src: "images/finger_lakes/finger_lakes_upstate_bug.JPG",
     alt: "bug",
     title: "The Finger Lakes, NY",
+    filter: "getayways",
     pics: [
       [
         "images/finger_lakes/finger_lakes_upstate_bug.JPG",
@@ -54,6 +55,7 @@ var info = {
     src: "/images/mohonk/mohonk_hills.JPG",
     alt: "mountain house",
     title: "Mohonk Mountain House - Day trip!",
+    filter: "treks",
     pics: [
       [
         "/images/mohonk/mohonk_hills.JPG",
@@ -120,6 +122,7 @@ var info = {
     src: "images/new_haven/new_haven_grass.JPG",
     alt: "new haven ct",
     title: "New Haven CT - Day trip!",
+    filter: "getayways",
     pics: [
       [
         "images/new_haven/new_haven_grass.JPG",
@@ -167,6 +170,7 @@ var info = {
     src: "images/hoot/hoot.JPG",
     alt: "hoot",
     title: "Hoot Festival",
+    filter: "getayways",
     pics: [
       [
         "images/hoot/hoot.JPG",
@@ -179,6 +183,7 @@ var info = {
     src: "images/bear_mountain/bear_mountain_lake.JPG",
     alt: "bear_mountain_lake",
     title: "Bear Mountain",
+    filter: "recipes",
     pics: [
       [
         "images/bear_mountain/bear_mountain_lake.JPG",
@@ -191,6 +196,7 @@ var info = {
     src: "images/hudson/hudson_winter_walk.JPG",
     alt: "hudson_winter_walk",
     title: "Hudson, NY - Winter Walk",
+    filter: "recipes",
     pics: [
       [
         "images/hudson/hudson_winter_walk.JPG",
@@ -202,6 +208,7 @@ var info = {
     src: "images/nyack/nyack_hook_mt_tree.JPG",
     alt: "upstate_scene",
     title: "Nyack, NY",
+    filter: "getayways",
     pics: [
       [
         "images/nyack/nyack_hook_mt_tree.JPG",
@@ -214,6 +221,7 @@ var info = {
     src: "images/storm_king/storm_king_tree.JPG",
     alt: "barn",
     title: "Storm King",
+    filter: "getayways",
     pics: [
       [
         "images/storm_king/storm_king_tree.JPG",
@@ -281,6 +289,7 @@ var info = {
     src: "images/scotland/scotch_old_man_store.JPG",
     alt: "old_man_store",
     title: "Scotland!",
+    filter: "treks",
     pics: [
       [
         "images/scotland/scotch_old_man_store.JPG",
@@ -362,6 +371,7 @@ var info = {
     src: "images/newport/newport_light_house.JPG",
     alt: "Newport",
     title: "Newport, RI",
+    filter: "things",
     pics: [
       [
         "images/newport/newport_light_house.JPG",
@@ -374,6 +384,7 @@ var info = {
     src: "images/saugerties/saugerties_light_house.jpg",
     alt: "saugerties_light_house",
     title: "Saugerties, NY",
+    filter: "things",
     pics: [
       [
         "images/saugerties/saugerties_light_house.jpg",
@@ -385,6 +396,7 @@ var info = {
     src: "images/mv/marthas_vineyard_creek.JPG",
     alt: "marthas_vineyard_creek",
     title: "Martha's Vineyard, MA",
+    filter: "treks",
     pics: [
       [
         "images/mv/marthas_vineyard_creek.JPG",
