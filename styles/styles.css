@@ -342,9 +342,10 @@ a:link, a:visited, a:hover, a:active {
   transform: translateX(0px);
 }
 
-.bk-filters__option.-selected:hover::before,
-.bk-filters__option.-selected:hover::after,
-.bk-filters__option.-selected:focus::before,
-.bk-filters__option.-selected:focus::after {
-  opacity: 0;
+.bk-filters__option.-selected::before,
+.bk-filters__option.-selected::after {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  transform: translateX(0px);
 }

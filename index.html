@@ -32,7 +32,10 @@
         React.render(<BkHome/>, document.body);
       },
       'articles': function() {
-        React.render(<BodyContent/>, document.body);
+        React.render(<BodyContent filter="everything" />, document.body);
+      },
+      'articles/:filter': function() {
+        React.render(<BodyContent filter={this.params.filter} />, document.body);
       },
       'article/:name': function() {
         var articleName = this.params.name
