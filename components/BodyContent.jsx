@@ -5,12 +5,11 @@ var BodyContent = React.createClass({
     };
   },
   split: function (a, n) {
-    var len = a.length,out = [], i = 0;
-    while (i < len) {
-      var size = Math.ceil((len - i) / n--);
-      out.push(a.slice(i, i += size));
+    var length = a.length, output = [], i = 0;
+    while (i < length) {
+      output.push(a.slice(i, i += 3));
     }
-    return out;
+    return output;
   },
   getArticles: function () {
     var articleTitles = Object.keys(info)
