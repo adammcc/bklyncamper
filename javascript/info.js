@@ -4,6 +4,7 @@ var info = {
     alt: "bug",
     title: "The Finger Lakes, NY",
     filter: "getayways",
+    article_type: "gallery",
     pics: [
       [
         "images/finger_lakes/finger_lakes_upstate_bug.JPG",
@@ -56,6 +57,7 @@ var info = {
     alt: "mountain house",
     title: "Mohonk Mountain House - Day trip!",
     filter: "treks",
+    article_type: "gallery",
     pics: [
       [
         "/images/mohonk/mohonk_hills.JPG",
@@ -123,6 +125,7 @@ var info = {
     alt: "new haven ct",
     title: "New Haven CT - Day trip!",
     filter: "getayways",
+    article_type: "gallery",
     pics: [
       [
         "images/new_haven/new_haven_grass.JPG",
@@ -171,6 +174,7 @@ var info = {
     alt: "hoot",
     title: "Hoot Festival",
     filter: "getayways",
+    article_type: "gallery",
     pics: [
       [
         "images/hoot/hoot.JPG",
@@ -184,6 +188,7 @@ var info = {
     alt: "bear_mountain_lake",
     title: "Bear Mountain",
     filter: "recipes",
+    article_type: "gallery",
     pics: [
       [
         "images/bear_mountain/bear_mountain_lake.JPG",
@@ -197,6 +202,7 @@ var info = {
     alt: "hudson_winter_walk",
     title: "Hudson, NY - Winter Walk",
     filter: "recipes",
+    article_type: "gallery",
     pics: [
       [
         "images/hudson/hudson_winter_walk.JPG",
@@ -209,6 +215,7 @@ var info = {
     alt: "upstate_scene",
     title: "Nyack, NY",
     filter: "getayways",
+    article_type: "gallery",
     pics: [
       [
         "images/nyack/nyack_hook_mt_tree.JPG",
@@ -222,6 +229,7 @@ var info = {
     alt: "barn",
     title: "Storm King",
     filter: "getayways",
+    article_type: "gallery",
     pics: [
       [
         "images/storm_king/storm_king_tree.JPG",
@@ -290,6 +298,7 @@ var info = {
     alt: "old_man_store",
     title: "Scotland!",
     filter: "treks",
+    article_type: "gallery",
     pics: [
       [
         "images/scotland/scotch_old_man_store.JPG",
@@ -372,6 +381,7 @@ var info = {
     alt: "Newport",
     title: "Newport, RI",
     filter: "things",
+    article_type: "gallery",
     pics: [
       [
         "images/newport/newport_light_house.JPG",
@@ -385,6 +395,7 @@ var info = {
     alt: "saugerties_light_house",
     title: "Saugerties, NY",
     filter: "things",
+    article_type: "gallery",
     pics: [
       [
         "images/saugerties/saugerties_light_house.jpg",
@@ -397,11 +408,35 @@ var info = {
     alt: "marthas_vineyard_creek",
     title: "Martha's Vineyard, MA",
     filter: "treks",
+    article_type: "gallery",
     pics: [
       [
         "images/mv/marthas_vineyard_creek.JPG",
         "images/mv/thumbs/marthas_vineyard_creek__thumb.JPG",
         "This works!!"]
+    ]
+  },
+  shrub: {
+    src: "images/shrub/hudson_standard_shrub.JPG",
+    alt: "hudson_standard_shrub",
+    title: "The Hudson Standard Shrub",
+    filter: "recipes",
+    article_type: "slide_show",
+    blurb: "<p>Leave it to makers in cool Hudson, NY to make a colonial era drink hip again. Shrubs - fruit syrups spiked with vinegar and sweetened with sugar - might be the best thing to happen to cocktail enthusiasts and teetotalers alike. Combine any of the delicious shrubs produced by The Hudson Standard with alcohol or simply dilute with seltzer for a complex drink that is delightfully acidic and sweet. </p> <br> <p>Our favorite “drinking vinegar” cocktail is the Root and Branch. The recipe below comes straight from <a href='http://thehudsonstandard.com/' target='_blank'>The Hudson Standard’s website</a>, using gin and their Pear Honey Ginger shrub (you can buy some for yourself through their online store). This one is good any time of year. </p>",
+    recipe: [
+      "<strong>Root and Branch</strong> <br> <br>",
+      "<p>1 3/4 oz. Ransom (Old Tom) Gin <br></p>",
+      "<p>3/4 oz. Pear Honey Ginger Shrub <br></p>",
+      "<p>1/4 oz. Dolin Dry Vermouth <br></p>",
+      "<p>2 Dashes of Orange Bitters <br></p>",
+      "<p>Combine ingredients in a cocktail shaker. Fill with ice. Shake vigorously and pour into a chilled coup. Serve with a lemon twist.<p>"
+    ],
+    pics: [
+      [
+        "images/shrub/hudson_standard_shrub.JPG",
+        "images/shrub/hudson_standard_shrub.JPG",
+        "This works!!"
+      ]
     ]
   }
 }

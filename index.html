@@ -27,6 +27,9 @@
   <script src="components/BkShow.jsx" type="text/jsx"></script>
   <script src="components/BkShowThumbs.jsx" type="text/jsx"></script>
   <script src="components/GalleryNav.jsx" type="text/jsx"></script>
+  <script src="components/BkShowSlidShow.jsx" type="text/jsx"></script>
+  <script src="components/SlideShowNav.jsx" type="text/jsx"></script>
+  <script src="components/SlideShowNavNextPrev.jsx" type="text/jsx"></script>
 
   <script type="text/jsx">
     routie({
@@ -41,7 +44,23 @@
       },
       'article/:name': function() {
         var articleName = this.params.name
-        React.render(<BkShow pics={info[articleName]["pics"]} title={info[articleName]["title"]} />, document.body);
+        if (info[articleName]["article_type"] == "gallery") {
+          React.render(
+            <BkShow
+              articleName={articleName}
+              pics={info[articleName]["pics"]}
+              title={info[articleName]["title"]}
+              articleType={info[articleName]["article_type"]} />,
+            document.body);
+        } else {
+          React.render(
+            <BkShowSlidShow
+              articleName={articleName}
+              pics={info[articleName]["pics"]}
+              title={info[articleName]["title"]}
+              articleType={info[articleName]["article_type"]} />,
+            document.body);
+        }
       }
     });
   </script>
