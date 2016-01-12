@@ -45,33 +45,13 @@ var BkShow = React.createClass({
         <div className="bk-show__title">&#10523; { this.props.title } &#10524;</div>
 
         <div className="bk-show__main-image col-sm-8">
-          <div className="bk-show__nav-item-container bk-show__hide-til-hover">
-            <a className="bk-show__nav-item -home" href="#articles">
-              <i className="fa fa-home"></i>
-            </a>
-
-            <div className="bk-show__nav-item -prev" onClick={ this.prevPic }>
-              <i className="fa fa-angle-left"></i>
-            </div>
-
-            <div className="bk-show__nav-item -next" onClick={ this.nextPic }>
-              <i className="fa fa-angle-right"></i>
-            </div>
-          </div>
+          <GalleryNav prevPic={this.prevPic} nextPic={this.nextPic} />
           <img src={ this.state.activePic[0] } alt="bug" width="100%" height="90%"/>
         </div>
 
         <div className="col-sm-3">
-          <div className="bk-show__small-images row">
-            { this.props.pics.map(function (data) {
-              return (
-                <div className={ activePic == data ? "bk-show__small-image -selected" : "bk-show__small-image" } onClick={ setActivePic.bind(null, data) }>
-                  <img src={data[1]} alt={data[2]} height="66px" width="66px" />
-                </div>
-              );
-            })}
-          </div>
-          <div className="bk-show__image-blurb js-show__image-blurb">{  this.state.activePic[2] }</div>
+          <BkShowThumbs pics={this.props.pics} setActivePic={setActivePic} activePic={activePic} />
+          <div className="bk-show__image-blurb js-show__image-blurb">{ this.state.activePic[2] }</div>
         </div>
       </div>
     );
